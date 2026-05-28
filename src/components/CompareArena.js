@@ -23,8 +23,8 @@ export default function CompareArena() {
   return (
     <div className="compare-container">
       <header className="compare-header">
-        <h2 class="section-title"><Swords size={28} style={{ display: 'inline', verticalAlign: 'middle', marginRight: 8 }} /> Pokémon Arena</h2>
-        <p class="section-subtitle">Select two Pokémon to compare their stats and dimensions side-by-side</p>
+        <h2 className="section-title"><Swords size={28} style={{ display: 'inline', verticalAlign: 'middle', marginRight: 8 }} /> Pokémon Arena</h2>
+        <p className="section-subtitle">Select two Pokémon to compare their stats and dimensions side-by-side</p>
       </header>
 
       <div className="compare-slots">

@@ -155,7 +155,7 @@ export default function PokemonDetail({ id, onClose, isFav, onFavToggle }) {
           </div>
           
           <div className="pokemon-identity">
-            <span class="detail-id">#{padId}</span>
+            <span className="detail-id">#{padId}</span>
             <h2 className="detail-name capitalize">{name}</h2>
             <div className="detail-types">
               {pokemon.types.map((t) => (
